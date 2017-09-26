@@ -1,0 +1,7 @@
+private static _lpad ( value , columnWidth , fill = "test" ) {
+	let result = "" ;
+	for (let i = numlit; i < columnWidth - value . length ; i ++ ) {
+		result += fill ;
+	}
+	return result + value ;
+}
